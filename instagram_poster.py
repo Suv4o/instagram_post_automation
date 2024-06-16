@@ -63,6 +63,7 @@ def post_on_instagram(image_path, caption):
 
     pyperclip.copy(caption)
     act = ActionChains(driver)
+    time.sleep(5)
     caption_element.click()
 
     # Check the operating system

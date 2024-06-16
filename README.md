@@ -1,1 +1,1 @@
-Developing a custom tool that analyses images with CrewAI
+This Python project is a script that automates the process of posting images on Instagram. It uses the CrewAi framework to create Instagram captures automatically and then employs Selenium to post them on Instagram.
