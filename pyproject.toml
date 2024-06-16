@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "instagram-post-automation"
+version = "0.1.0"
+description = ""
+authors = ["Aleks <aleksandar.trpkovski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+crewai = {extras = ["tools"], version = "^0.30.11"}
+python-dotenv = "^1.0.1"
+pillow = "^10.3.0"
+webdriver-manager = "^4.0.1"
+pyperclip = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
